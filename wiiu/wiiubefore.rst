@@ -30,11 +30,7 @@ Custom Firmware (CFW) gives homebrew more access to the system than standard use
 What will I get by following this guide?
 ----------------------------------------
 
-This guide will give you the ability to run a custom (or patched) firmware of choice on a previously unmodified Wii U.
-
-There are 2 ways to accomplish this, you can either run a browser exploit everytime you reboot your Wii U or you can install Haxchi, a permanent exploit taking over a DS title.
-
-You can also install Coldboot Haxchi, **however** this guide will not guide you through that due to multiple issues that Coldboot Haxchi can cause.
+This guide will go through the steps to Install Tiramisu on your unmodded Wii U
 
 .. danger::
 
