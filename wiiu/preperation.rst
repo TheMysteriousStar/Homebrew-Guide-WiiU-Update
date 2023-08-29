@@ -20,65 +20,6 @@ Step 0: What You Will Need
 
     * The browser exploit requires internet (Crazy, I know). If you decide to install Haxchi this is only needed once however.
 
-* One of the following games if you want Haxchi:
-
-    * **NOTE:** This is not required if you just want to run the Browser exploit. We do recommend buying one of these games though
-    * **WARNING:** Don't use a pirated copy of these games. This will result in a brick.
-
-
-        +-----------------------------------------------+
-        | Compatible Haxchi Games                       |
-        +===============================================+
-        | Animal Crossing: Wild World                   |
-        +-----------------------------------------------+
-        | Big Brain Academy                             |
-        +-----------------------------------------------+
-        | Brain Age                                     |
-        +-----------------------------------------------+
-        | DK: Jungle Climber                            |
-        +-----------------------------------------------+
-        | Dr. Kawashima’s Brain Training                |
-        +-----------------------------------------------+
-        | Kirby: Canvas Curse                           |
-        +-----------------------------------------------+
-        | Kirby: Mass Attack                            |
-        +-----------------------------------------------+
-        | Kirby: Squeak Squad / Kirby: Mouse Attack     |
-        +-----------------------------------------------+
-        | Legend of Zelda: Phantom Hourglass            |
-        +-----------------------------------------------+
-        | Legend of Zelda: Spirit Tracks                |
-        +-----------------------------------------------+
-        | Mario & Luigi: Partners in Time               |
-        +-----------------------------------------------+
-        | Mario Kart DS                                 |
-        +-----------------------------------------------+
-        | New Super Mario Bros.                         |
-        +-----------------------------------------------+
-        | Pokemon Mystery Dungeon: Explorers of the Sky |
-        +-----------------------------------------------+
-        | Pokemon Ranger                                |
-        +-----------------------------------------------+
-        | Pokemon Ranger: Guardian Signs                |
-        +-----------------------------------------------+
-        | Pokemon Ranger: Shadows of Almia              |
-        +-----------------------------------------------+
-        | Starfox Command                               |
-        +-----------------------------------------------+
-        | Super Mario 64 DS                             |
-        +-----------------------------------------------+
-        | Wario: Master of Disguise                     |
-        +-----------------------------------------------+
-        | WarioWare: Touched                            |
-        +-----------------------------------------------+
-        | Yoshi’s Island DS                             |
-        +-----------------------------------------------+
-        | Yoshi’s Touch & Go                            |
-        +-----------------------------------------------+
-
-    * We recommend buying Brain Age as it's the cheapest at 6.99€ ($6.99 USD). However any of those games work fine!
-    * If you had Brain Age or Brain Training installed for a very long time, please consider deleting and redownloading it as older versions are not compatible with Haxchi.
-
 ........
 
 Step 1: Format your SD Card
@@ -92,14 +33,12 @@ The Wii U needs a FAT32 formatted SD card. However unlike the Switch, **only FAT
 
 ........
 
-Step 2: Download Kosmos Wii U
+Step 2: Download Tiramisu
 -----------------------------
 
-1. Grab the latest version of Kosmos-Wii-U from `https://github.com/NicholeMattera/Kosmos-Wii-U/releases <https://github.com/NicholeMattera/Kosmos-Wii-U/releases>`_
+1. Grab the latest version of Tiramisu from `https://tiramisu.foryour.cafe/ <https://tiramisu.foryour.cafe/>`_
 2. Insert your SD card into your PC
-3. Open **`Kosmos-WiiU-vX.zip`** with a ZIP Archiver of your choice
-4. Copy the content of the ZIP onto your SD
-5. You should now have a **`wiiu`,** **`haxchi`** and **`install`** folder on your SD
+3. extract the ZIP's contents to the SD Card
 
 Congratulations, we're done with preparations.
 
