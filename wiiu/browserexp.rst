@@ -66,7 +66,7 @@ this step will finalize the setup you have created
 1. Turn on the Wii U and open the EnvironmentLoader
 2. navigate to the "tiramisu" environment and press Y to make it your default environment. then launch it normally
 
-   *you will probably get a giant red screen telling you aren't blocking updates properly. Press A to continue anyway.
+   * you will probably get a giant red screen telling you aren't blocking updates properly. Press A to continue anyway.
 
 3. on the Tiramisu Boot Selector. the Wii U Menu should already be selected, Press Y to set this as the default Boot Title
 
