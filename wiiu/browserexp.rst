@@ -9,18 +9,10 @@ Exploits and You
 Step 1: Running the Exploit
 ---------------------------
 
-1. Go to `http://u.wiidb.de` in your Wii U web browser
-2. Press `HAXX`.
+1. Go to `wiiuexploit.xyz` in your Wii U web browser
+2. Press the "Run Exploit!" Button while holding the B Button
 
     * **Note:** This may take some tries till it works. Just repeat the whole process from Step 0 and hope for the best.
-
-3. The Homebrew Launcher should start.
-4. Now select `Mocha CFW` in your Homebrew Channel.
-5. You should return to the Homebrew Channel.
-6. Congratulations, you now started your first Wii U CFW - Mocha allows signature patches, region patches and many other CFW options.
-
-    * This will only last until your reboot your console! Always start Mocha after the browser exploit to ensure the best homebrew compatibility.
-
 ........
 
 Step 2: Backing up your NAND
@@ -29,54 +21,58 @@ Step 2: Backing up your NAND
 1. Select `Wii U Nand Dumper` in the Homebrew Channel.
 2. You now have multiple options:
 
-    * Dump your SLC (512MB) (Wii U firmware)
-    * Dump your SLCCMPT (512MB) (vWii firmware and internal storage)
-    * Dump your MLC (8GB on white consoles, 32GB on black ones) (Your internal storage including all games, DLC, etc.)
-    * Dump your OTP [**STRONGLY RECOMMENDED**] (~1KB) (Your console specific keys)
-    * Dump your SEEPROM [**STRONGLY RECOMMENDED**] (~a few KB) (All general Wii U keys)
+    * Dump your SLC: YES (512MB) (Wii U firmware)
+    * Dump your SLCCMPT: YES (512MB) (vWii firmware and internal storage)
+    * Dump your MLC: if your SD Card is larger than NAND (8GB on white consoles, 32GB on black ones) (Your internal storage including all games, DLC, etc.)
+    * Dump your OTP: YES
+    * Dump your SEEPROM: YES
 
 ........
 
-[Optional] Step 3: Installing Haxchi
+Step 3: Installing PayloadLoader
 ------------------------------------
 
-If you installed any of the Haxchi-compatible games we mentioned in the preparations you can now proceed to install Haxchi.
-Compared to the browser exploit, haxchi does not require any luck or internet and is just a launchable icon on your home menu.
+1. return to 'wiiuexploit.xyz'.
+2. Press the "Run Exploit!" button while holding the X Button
+3. select the "installer" environment and Press A to launch
+4. Press the A button to check for an installation
 
-**NOTE:** Your DS game must be installed on your NAND, otherwise it will not work!
+   * It should now tell you that the PayloadLoader can be installed onto the Health and Safety Information app.
 
-1. Select `Haxchi` in your Homebrew Channel.
-2. Select the DS title you would like to overwrite with Haxchi
-
-    * **NOTE:** This will make the game unplayable, so don't overwrite a DS title you want to play.
-
-3. Press (A) to confirm your selected title
-4. Read the warning!
-5. Press (A) once again to confirm and install
-6. Once finished your DS title should be your gateway to the world of CFW.
-
-Pressing the Haxchi application will automatically start Mocha CFW, if you want to start Homebrew Channel hold and press (A) while starting the title.
+5. select "Install / Update" 
+6. you will be asked if you want to install the PayloadLoader to Health and Safety. select "install:
+7. after the installation finishes, press A to shut down the Wii U
 
 ........
 
-Step 4: Installing the Homebrew Channel (Channel)
+Step 4: Autoboot Tiramisu (Optional)
 -------------------------------------------------
 
-The Homebrew Channel (Channel) is a shortcut to the homebrew channel you can start from your home menu when having Mocha CFW enabled. Please note that you always have to launch Mocha before starting this application! Otherwise it won't work.
+Your setup currently requires you to launch the Health and Safety Infomation app every time you wish launch Homebrew. 
+If you wish to have Tiramisu loaded at startup follow these steps
+1. Power on the console, enter the Health and Safety Infomation app and hold X button
+2. select the installer environment.
+3. Press A to check for an installation
+4. Select "Boot Options"
+5. you will be asked if you wish to change the boot title. Select Switch to PayloadLoader
+6. after the process finishes, press A to shutdown the console
 
-1. Enter the Homebrew Channel
-2. Launch `WUP Installer GX2`
+........
 
-    * If for some reason WUP Installer GX2 fails with `DSi Exception Has Occurred` try again.
+Step 5: Finalizing Setup
+-------------------------------------------------
+this step will finalize the setup you have created
 
-3. Select `Homebrew Channel`
-4. Press `Install`
-5. Press `Yes` to confirm
-6. Select `NAND` as the destination
-7. Press the (HOME) button
-8. Close the application once the installation finishes.
-9. You can now launch the Homebrew Channel through the icon while being in CFW, congratulations!
+1. Turn on the Wii U and open the EnvironmentLoader
+2. navigate to the "tiramisu" environment and press Y to make it your default environment. then launch it normally
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+   *you will probably get a giant red screen telling you aren't blocking updates properly. Press A to continue anyway.
+
+3. on the Tiramisu Boot Selector. the Wii U Menu should already be selected, Press Y to set this as the default Boot Title
+
+........
+
+Accessing Homebrew
+-------------------------------------------------
+to access the Homebrew Launcher in Tiramisu simply open the Mii Maker. if you wish to use the Mii Maker normally and/or want to leave the Homebrew Lanucher 
+press the home button and you will return to the normal Mii Maker. you can choose to install the Homebrew Launcher Channel (HBLC) however this is not recommended. 
